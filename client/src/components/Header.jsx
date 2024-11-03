@@ -15,7 +15,7 @@ const Header = () => {
                     <input type="text" placeholder="Search..." className="bg-transparent focus:outline-none w-24 sm:w-64" />
                     <FaSearch className='text-slate-500' />
                 </form>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-4 font-bold'>
                     <Link to={'/'}>
                         <li className='hidden sm:inline text-slate-700 hover:underline'>Home</li>
                     </Link>

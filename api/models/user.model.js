@@ -14,6 +14,10 @@ const userSchema = new mongoose.Schema(
         },password: {
             type: String,
             required: true,
+        },
+        avatar: {
+            type: String,
+            default: "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg"
         }
     }, {timestamps: true}
 )
